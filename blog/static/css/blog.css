@@ -1,26 +1,29 @@
 body {
-  padding-left: 15px;
   font-family: 'Roboto', sans-serif;
 }
-
-h1 a {
-  color: #FCA205;
-  font-family: 'Indie Flower', cursive;
-}
-
-header {
+.page-header {
   background-color: #ff9400;
   margin-top: 0;
   padding: 20px 20px 20px 40px;
 }
 
-header h1, header h1 a, header h1 a:visited, header h1 a:active {
-  color: #fff;
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active, {
+  color: #ffffff;
   font-size: 36pt;
   text-decoration: none;
 }
 
-main {
+
+.page-header a,
+.page-header a:visited,
+.page-header a:active {
+  color: #ffffff;
+}
+
+.content {
   margin-left: 40px;
 }
 
@@ -41,16 +44,17 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-  color: #fff;
+  color: #ffffff;
   float: right;
   font-size: 26pt;
   margin-right: 20px;
+  font-family: 'Indie Flower', cursive;
 }
 
-article {
+.post {
   margin-bottom: 70px;
 }
 
-article h1 a, article h1 a:visited {
-  color: #000;
+.post h1 a, .post h1 a:visited {
+  color: #000000;
 }
