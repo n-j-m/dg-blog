@@ -137,7 +137,7 @@ SECURE_PROXY_SSL_HANDLER = ('HTTP_X_FORWARDED_PROTO', 'https',)
 ALLOWED_HOSTS = ['*']
 
 
-DEBUG = False
+DEBUG = True
 
 
 try:
