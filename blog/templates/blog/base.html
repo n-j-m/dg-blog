@@ -21,7 +21,7 @@
     </a>
     <p class="top-menu">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
   {% else %}
-    <a href="{% url 'login' %}" class="top-menu">
+    <a href="{% url 'login' %}" class="top-menu" title="Login">
       <span class="glyphicon glyphicon-lock"></span>
     </a>
   {% endif %}
